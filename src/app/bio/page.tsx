@@ -74,7 +74,7 @@ export default function About() {
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
               I’ve loved making things for as long as I can remember, and wrote
-              
+
               my first program when I was 6 years old, just two weeks after my
               mom brought home the brand new Macintosh LC 550 that I taught
               myself to type on.
@@ -103,16 +103,16 @@ export default function About() {
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={XIcon}>
+            <SocialLink href="https://twitter.com/vchennai2" icon={XIcon}>
               Follow on X
             </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+            <SocialLink href="https://www.instagram.com/vikram_chennai1/" icon={InstagramIcon} className="mt-4">
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            <SocialLink href="https://github.com/VikramChennai/" icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink href="https://www.linkedin.com/in/vikram-chennai/" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
             <SocialLink

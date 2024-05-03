@@ -15,7 +15,7 @@ import logoTwitter from '@/images/logos/twitter.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoYoutube from '@/images/logos/youtube.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
-import logoArdent from '@/images/logos/ardentlogo2.svg'
+import logoArdent from '@/images/logos/ardentlogo.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -217,14 +217,14 @@ function Resume() {
       title: `Useful Goldfish attention span videos`,
       logo: logoFacebook,
       start: '',
-      link: 'https://www.youtube.com/channel/UCJ5v_MCY6GNUqZ9J6j5jJwA',
+      link: 'https://www.tiktok.com/@vikramchennai898?_t=8m2DHcxJhDr&_r=1',
     },
     {
       company: 'Instagram',
       title: 'I should post here more',
       logo: logoStarbucks,
       start: '',
-      link: 'https://www.youtube.com/channel/UCJ5v_MCY6GNUqZ9J6j5jJwA',
+      link: 'https://www.instagram.com/vikram_chennai1/',
     },
   ]
 

@@ -55,7 +55,7 @@ export default function Speaking() {
       <div className="space-y-20">
         <SpeakingSection title="What to work on">
           <Appearance
-            href="#"
+            href="/articles/what-to-work-on"
             title="Framework: How to choose what to work on"
             description="My framework for figuring out what to work on and how to measure if it's a good fit or not"
             event="Written on: 5/1/2024"

@@ -3,48 +3,34 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoTwitter from '@/images/logos/twitter.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoMeetWise from '@/images/logos/meetwise.svg'
+import logoArdent from '@/images/logos/ardentlogo.svg'
+import logoReVision from '@/images/logos/revision.svg'
+
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Ardent',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoTwitter,
+      'Create realistic datasets with text prompts',
+    link: { href: '/articles/building-ardent', label: 'Building Ardent' },
+    logo: logoArdent,
   },
   {
-    name: 'Animaginary',
+    name: 'MeetWise',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoTwitter,
+      'Optimize Meetings with advanced analysis',
+    link: { href: '/articles/building-meetwise', label: 'Building MeetWise' },
+    logo: logoMeetWise,
   },
   {
-    name: 'HelioStream',
+    name: 'ReVision',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'Computer Vision for Real Estate to Help Fix&Flip find better deals',
+    link: { href: '/articles/building-revision', label: 'Building Revision ->' },
+    logo: logoReVision,
   },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
-  },
+  
 ]
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -60,14 +46,14 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  description: `Things I've built`,
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Things I've built"
+      intro="Stuff I've built and reflections on them. Links to check them out and to the articles"
     >
       <ul
         role="list"
