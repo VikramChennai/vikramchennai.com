@@ -11,10 +11,11 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
+import logoTwitter from '@/images/logos/twitter.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoYoutube from '@/images/logos/youtube.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoArdent from '@/images/logos/ardentLogo2.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -189,19 +190,27 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
+      company: 'Ardent',
+      title: 'Current Company - Data on Demand',
+      logo: logoArdent,
+      start: '',
+      link: 'https://ardentai.io',
+      
+    },
+    {
       company: 'Youtube',
-      title: 'Videos on Startups',
-      logo: logoPlanetaria,
-      start: 'Go Sub',
-      link: 'https://www.youtube.com/channel/UCJ5v_MCY6GNUqZ9J6j5jJwA',
+      title: 'Useful Videos on Startups',
+      logo: logoYoutube,
+      start: '',
+      link: 'https://www.youtube.com/@vikramchennai898',
       
     },
     {
       company: 'Twitter',
       title: 'Inspired Tweets',
-      logo: logoAirbnb,
-      start: 'Go Like my posts',
-      link: 'https://www.youtube.com/channel/UCJ5v_MCY6GNUqZ9J6j5jJwA',
+      logo: logoTwitter,
+      start: '',
+      link: 'https://twitter.com/vchennai2',
     },
     {
       company: 'Tiktok',
@@ -214,7 +223,7 @@ function Resume() {
       company: 'Instagram',
       title: 'I should post here more',
       logo: logoStarbucks,
-      start: 'Go Sub',
+      start: '',
       link: 'https://www.youtube.com/channel/UCJ5v_MCY6GNUqZ9J6j5jJwA',
     },
   ]
@@ -275,7 +284,7 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             Most startup stories are highlight reels.
-            Those that aren't give too little detail to learn from.
+            Those that {`aren't`} give too little detail to learn from.
             
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
