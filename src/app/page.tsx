@@ -270,7 +270,7 @@ export default async function Home() {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
   
             <b>Building the playbook I wish I had when I started.</b>
-            <b> {'Start'} <a href="/core"><u>HERE</u></a></b>
+            <b> {'Start'} <a href="/essays"><u>HERE</u></a></b>
           </p>
           
 
