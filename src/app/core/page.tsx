@@ -15,6 +15,7 @@ function SpeakingSection({
   )
 }
 
+
 function Appearance({
   title,
   description,
@@ -59,6 +60,19 @@ export default function Speaking() {
             title="Framework: How to choose what to work on"
             description="My framework for figuring out what to work on and how to measure if it's a good fit or not"
             event="Written on: 5/1/2024"
+            cta="To article"
+          />
+          
+        </SpeakingSection>
+       
+      </div>
+      <div className="space-y-20 mt-4">
+        <SpeakingSection title="Cofounders">
+          <Appearance
+            href="/articles/cofounders"
+            title="What makes a great Cofounder"
+            description="My thoughts on Cofounders and what makes a great one"
+            event="Written on: 8/26/2024"
             cta="To article"
           />
           

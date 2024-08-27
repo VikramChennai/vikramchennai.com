@@ -191,41 +191,21 @@ function Resume() {
   let resume: Array<Role> = [
     {
       company: 'Ardent',
-      title: 'Current Company - Data on Demand',
+      title: 'An AI Data Engineer',
       logo: logoArdent,
       start: '',
       link: 'https://ardentai.io',
       
     },
-    {
-      company: 'Youtube',
-      title: 'Useful Videos on Startups',
-      logo: logoYoutube,
-      start: '',
-      link: 'https://www.youtube.com/@vikramchennai898',
-      
-    },
+  
     {
       company: 'Twitter',
-      title: 'Inspired Tweets',
+      title: 'Tweets',
       logo: logoTwitter,
       start: '',
       link: 'https://twitter.com/vchennai2',
     },
-    {
-      company: 'Tiktok',
-      title: `Useful Goldfish attention span videos`,
-      logo: logoFacebook,
-      start: '',
-      link: 'https://www.tiktok.com/@vikramchennai898?_t=8m2DHcxJhDr&_r=1',
-    },
-    {
-      company: 'Instagram',
-      title: 'I should post here more',
-      logo: logoStarbucks,
-      start: '',
-      link: 'https://www.instagram.com/vikram_chennai1/',
-    },
+    
   ]
 
   return (
@@ -280,7 +260,7 @@ export default async function Home() {
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
-            Founder and ML Engineer. Everything {`I've`} learned in one place
+           Building something people want
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             Most startup stories are highlight reels.
@@ -304,7 +284,7 @@ export default async function Home() {
         </div>
       </Container>
       <Container className="mt-16 md:mt-16">
-        <Progress />
+        {/*<Progress />*/}
       </Container>
       
       
