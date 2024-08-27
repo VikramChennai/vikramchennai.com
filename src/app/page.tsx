@@ -263,14 +263,13 @@ export default async function Home() {
            Building something people want
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Most startup stories are highlight reels.
-            Those that {`aren't`} give too little detail to learn from.
+            Obsessed with Deep Learning Models. Building ML companies
             
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
   
-            <b>Building the playbook I wish I had when I started.</b>
-            <b> {'Start'} <a href="/essays"><u>HERE</u></a></b>
+            <b>My Thoughts: </b>
+            <b> <a href="/essays"><u>HERE</u></a></b>
           </p>
           
 
